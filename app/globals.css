@@ -16,15 +16,16 @@
   --secondary-foreground: oklch(0.13 0 0);
   --muted: oklch(0.92 0.01 0);
   --muted-foreground: oklch(0.56 0 0);
-  /* Updated accent from purple to warm red/coral */
-  --accent: oklch(0.62 0.22 25);
+  /* Changed accent from warm red to professional Google blue */
+  --accent: oklch(0.54 0.16 262);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
   --border: oklch(0.9 0.01 0);
   --input: oklch(0.92 0.01 0);
-  --ring: oklch(0.62 0.22 25);
-  --chart-1: oklch(0.62 0.22 25);
+  /* Updated ring color to match new blue accent */
+  --ring: oklch(0.54 0.16 262);
+  --chart-1: oklch(0.54 0.16 262);
   --chart-2: oklch(0.65 0.15 30);
   --chart-3: oklch(0.55 0.2 20);
   --chart-4: oklch(0.68 0.14 35);
@@ -53,15 +54,16 @@
   --secondary-foreground: oklch(0.97 0 0);
   --muted: oklch(0.22 0 0);
   --muted-foreground: oklch(0.7 0 0);
-  /* Updated accent for dark mode to warm red/coral */
-  --accent: oklch(0.7 0.2 25);
+  /* Updated dark mode accent to lighter professional blue */
+  --accent: oklch(0.62 0.14 262);
   --accent-foreground: oklch(0.12 0 0);
   --destructive: oklch(0.63 0.18 25.3);
   --destructive-foreground: oklch(0.97 0 0);
   --border: oklch(0.22 0 0);
   --input: oklch(0.22 0 0);
-  --ring: oklch(0.7 0.2 25);
-  --chart-1: oklch(0.7 0.2 25);
+  /* Updated dark mode ring to match new blue */
+  --ring: oklch(0.62 0.14 262);
+  --chart-1: oklch(0.62 0.14 262);
   --chart-2: oklch(0.72 0.14 30);
   --chart-3: oklch(0.65 0.18 20);
   --chart-4: oklch(0.75 0.12 35);

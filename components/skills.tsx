@@ -20,7 +20,8 @@ const skillsData = {
 }
 
 const levelColors: { [key: string]: string } = {
-  Beginner: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 border-blue-200 dark:border-blue-700",
+  /* Updated color scheme: Beginner uses red accent, Intermediate and Advanced use blue accent */
+  Beginner: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 border-red-200 dark:border-red-700",
   Intermediate: "bg-accent/20 text-accent dark:bg-accent/30 border-accent/50",
   Advanced: "bg-accent/40 text-accent dark:bg-accent/50 border-accent",
 }
