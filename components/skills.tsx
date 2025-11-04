@@ -20,8 +20,7 @@ const skillsData = {
 }
 
 const levelColors: { [key: string]: string } = {
-  /* Updated color scheme: Beginner uses red accent, Intermediate and Advanced use blue accent */
-  Beginner: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 border-red-200 dark:border-red-700",
+  Beginner: "bg-accent/20 text-accent dark:bg-accent/30 border-accent/50",
   Intermediate: "bg-accent/20 text-accent dark:bg-accent/30 border-accent/50",
   Advanced: "bg-accent/40 text-accent dark:bg-accent/50 border-accent",
 }
@@ -38,7 +37,6 @@ export default function Skills() {
     return () => observer.disconnect()
   }, [])
 
-  /* Replaced progress bars with skill badge/chip design */
   const SkillBadge = ({ name, level }: { name: string; level: string }) => (
     <div
       className={`px-4 py-2 rounded-full border font-medium text-sm transition-all duration-300 hover:shadow-lg hover:scale-105 transform ${levelColors[level]}`}

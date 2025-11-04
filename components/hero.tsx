@@ -30,7 +30,11 @@ export default function Hero() {
           {/* Profile Image Placeholder */}
           <div className="mb-8 flex justify-center">
             <div className="w-40 h-40 rounded-full bg-gradient-to-br from-accent to-accent/60 flex items-center justify-center overflow-hidden ring-4 ring-accent/20 shadow-lg">
-              <img src="/professional-developer-portrait.jpg" alt="Arkajyoti Banerjee" className="w-full h-full object-cover" />
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/my-pic-aF6ZiIv0EY6za0q0UqoCmnlslKQK7G.jpg"
+                alt="Arkajyoti Banerjee"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
