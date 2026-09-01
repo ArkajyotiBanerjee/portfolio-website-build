@@ -27,11 +27,11 @@ export default function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="mb-8 flex justify-center">
             <div className="w-40 h-40 rounded-full bg-gradient-to-br from-accent to-accent/60 flex items-center justify-center overflow-hidden ring-4 ring-accent/20 shadow-lg">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/my-pic-aF6ZiIv0EY6za0q0UqoCmnlslKQK7G.jpg"
+                src="/arkajyoti-portrait.jpg"
                 alt="Arkajyoti Banerjee"
                 className="w-full h-full object-cover"
               />
@@ -39,16 +39,16 @@ export default function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 text-balance font-heading">
-            Tech Enthusiast
+            Arkajyoti Banerjee
             <br />
-            <span className="text-accent">Web Developer</span>
+            <span className="text-accent">Full Stack Developer</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-balance leading-relaxed">
-            Building modern, responsive web experiences with passion for AI and clean code
+            Student developer at VIT Chennai building real, deployed software and solving engineering problems across full-stack systems and AI integrations.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="#projects"
               className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent/90 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 transform"
@@ -56,8 +56,16 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="#contact"
+              href="https://drive.google.com/file/d/1XkBClFSHSBQ1rwxw175otSS2RM-vWT7I/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 transform"
+            >
+              Resume
+            </a>
+            <a
+              href="#contact"
+              className="px-8 py-3 bg-muted text-foreground hover:bg-muted/80 rounded-lg font-semibold hover:shadow-lg hover:-translate-y-1 transition-all duration-300 transform"
             >
               Get in Touch
             </a>
@@ -72,3 +80,4 @@ export default function Hero() {
     </section>
   )
 }
+

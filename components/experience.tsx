@@ -5,11 +5,18 @@ import { Briefcase } from "lucide-react"
 
 const experienceData = [
   {
-    role: "Web Developer",
-    company: "CodeChef Student Chapter, VIT Chennai",
-    period: "2025 – Present",
+    role: "Full Stack Developer",
+    company: "CodeChef VIT-Chennai Student Chapter",
+    period: "October 2025 – Present",
     description:
-      "Assisting in frontend design for upcoming event websites using CSS. Collaborating with the team to design responsive layouts and create engaging web experiences.",
+      "Independently developed a full-stack Game Arcade website, implementing its frontend and backend functionality. Contributed to the TetherX flagship hackathon platform through frontend development, authentication, and database-backed data storage.",
+  },
+  {
+    role: "Competitive Programming Member",
+    company: "CodeChef VIT-Chennai Student Chapter",
+    period: "June 2026 – Present",
+    description:
+      "Participate in regular competitive programming contests and DSA-oriented technical activities as part of the Competitive Programming department.",
   },
 ]
 

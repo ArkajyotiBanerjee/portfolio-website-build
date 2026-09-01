@@ -3,27 +3,37 @@
 import type React from "react"
 
 import { useEffect, useState } from "react"
-import { Mail, Linkedin, Github, Instagram } from "lucide-react"
+import { Mail, Linkedin, Github, Instagram, FileText } from "lucide-react"
 
 const socialLinks = [
   {
     name: "Email",
-    href: "mailto:arkajyoti@example.com",
+    value: "arkaban2006@gmail.com",
+    href: "mailto:arkaban2006@gmail.com",
     icon: Mail,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/arkajyoti-banerjee",
+    value: "in/arkajyoti-banerjee-1a3ab1337",
+    href: "https://www.linkedin.com/in/arkajyoti-banerjee-1a3ab1337",
     icon: Linkedin,
   },
   {
     name: "GitHub",
-    href: "https://github.com/arkajyoti-banerjee",
+    value: "github.com/ArkajyotiBanerjee",
+    href: "https://github.com/ArkajyotiBanerjee",
     icon: Github,
   },
   {
+    name: "Resume",
+    value: "View Resume (Google Drive)",
+    href: "https://drive.google.com/file/d/1XkBClFSHSBQ1rwxw175otSS2RM-vWT7I/view?usp=sharing",
+    icon: FileText,
+  },
+  {
     name: "Instagram",
-    href: "https://instagram.com/arkajyoti",
+    value: "@arkajyoti_banerjee",
+    href: "https://www.instagram.com/arkajyoti_banerjee",
     icon: Instagram,
   },
 ]
@@ -58,28 +68,26 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-semibold mb-6 font-heading">Let's connect</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm always interested in hearing about new projects and opportunities. Feel free to reach out through
-                any of these channels!
+                I'm actively looking for Full Stack, Software Development, and AI-integrated engineering internship opportunities. Feel free to reach out directly through any of these channels!
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-3">
               {socialLinks.map((link) => {
                 const Icon = link.icon
+                const isExternal = link.href.startsWith("http")
                 return (
                   <a
                     key={link.name}
                     href={link.href}
-                    className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 hover:bg-accent/15 hover:border-accent/40 border border-transparent hover:shadow-lg transition-all duration-300 group transform hover:-translate-x-1"
+                    {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    className="flex items-center gap-4 p-3.5 rounded-lg bg-muted/50 hover:bg-accent/15 hover:border-accent/40 border border-transparent hover:shadow-md transition-all duration-300 group transform hover:-translate-x-1"
                   >
-                    <Icon className="w-6 h-6 text-accent group-hover:scale-125 transition-transform duration-300" />
-                    <div>
+                    <Icon className="w-5 h-5 text-accent group-hover:scale-110 transition-transform duration-300 flex-shrink-0" />
+                    <div className="overflow-hidden">
                       <p className="font-medium text-xs text-muted-foreground uppercase tracking-wide">{link.name}</p>
-                      <p className="text-foreground group-hover:text-accent transition-colors duration-300 font-medium">
-                        {link.name === "Email" && "arkajyoti@example.com"}
-                        {link.name === "LinkedIn" && "arkajyoti-banerjee"}
-                        {link.name === "GitHub" && "arkajyoti-banerjee"}
-                        {link.name === "Instagram" && "@arkajyoti"}
+                      <p className="text-foreground group-hover:text-accent transition-colors duration-300 font-medium text-sm truncate">
+                        {link.value}
                       </p>
                     </div>
                   </a>

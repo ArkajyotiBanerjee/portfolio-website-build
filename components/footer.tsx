@@ -8,12 +8,21 @@ export default function Footer() {
           <div>
             <p className="text-sm text-muted-foreground">© {currentYear} Arkajyoti Banerjee. All rights reserved.</p>
           </div>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-6">
             <a href="#home" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Home
             </a>
             <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               About
+            </a>
+            <a href="#education" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Education
+            </a>
+            <a href="#experience" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Experience
+            </a>
+            <a href="#skills" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Skills
             </a>
             <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Projects

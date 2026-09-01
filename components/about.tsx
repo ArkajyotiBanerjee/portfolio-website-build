@@ -22,23 +22,21 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a tech enthusiast driven to make a difference using technology—whether through AI-based solutions or
-              impactful projects. I hail from Kolkata, West Bengal, and am currently pursuing{" "}
-              <span className="font-semibold text-foreground">
-                B.Tech in Electrical and Electronics Engineering with a Minor in Computer Science
-              </span>{" "}
-              at VIT Chennai.
+              I am an Electrical and Electronics Engineering undergraduate at{" "}
+              <span className="font-semibold text-foreground">VIT Chennai (Class of 2029)</span>. I primarily identify
+              as a Full Stack Developer who learns and refines skills by engineering complete, functional, and deployed
+              software.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My interests include AI, Generative AI, and exploring modern frameworks for web development. I have
-              intermediate knowledge in Java (DSA) and frontend development, and I'm continuously learning new
-              technologies to expand my skill set.
+              My hands-on experience spans frontend engineering, backend and REST API design, database architectures,
+              AI and LLM integrations, debugging, and cloud deployment. I prioritize practical problem solving and building
+              software that delivers genuine real-world utility.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Outside the tech world, I love sports—especially cricket—and enjoy reading books that broaden my
-              perspective on technology and innovation.
+              Beyond project development, I actively participate in competitive programming and technical problem solving,
+              consistently strengthening my foundation in data structures and algorithms.
             </p>
           </div>
 
@@ -48,12 +46,12 @@ export default function About() {
               <p className="text-muted-foreground">Kolkata, West Bengal</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-accent/5 to-transparent rounded-lg border border-accent/20 hover:border-accent/40 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-              <h3 className="font-semibold text-lg mb-2 font-heading text-accent">Currently</h3>
-              <p className="text-muted-foreground">VIT Chennai (Class of 2029)</p>
+              <h3 className="font-semibold text-lg mb-2 font-heading text-accent">Education</h3>
+              <p className="text-muted-foreground">VIT Chennai (2025–2029) • GPA: 8.78/10</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-accent/5 to-transparent rounded-lg border border-accent/20 hover:border-accent/40 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-              <h3 className="font-semibold text-lg mb-2 font-heading text-accent">Passion</h3>
-              <p className="text-muted-foreground">AI, Web Dev & Cricket</p>
+              <h3 className="font-semibold text-lg mb-2 font-heading text-accent">Focus</h3>
+              <p className="text-muted-foreground">Full Stack & AI-Integrated Systems</p>
             </div>
           </div>
         </div>

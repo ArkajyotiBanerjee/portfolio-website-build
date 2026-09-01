@@ -17,11 +17,18 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Arkajyoti Banerjee - Web Developer & Tech Enthusiast",
-  description: "Portfolio of Arkajyoti Banerjee, a passionate web developer and tech enthusiast from Kolkata",
+  title: "Arkajyoti Banerjee - Full Stack Developer",
+  description: "Portfolio of Arkajyoti Banerjee, Full Stack Developer and EEE student at VIT Chennai. Building real, deployed applications and AI-integrated software solutions.",
   generator: "v0.app",
   icons: {
     icon: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Arkajyoti Banerjee - Full Stack Developer",
+    description: "Full Stack Developer and EEE student at VIT Chennai. Building real, deployed applications and AI-integrated software solutions.",
+    url: "https://portfolio-website-build-psi.vercel.app",
+    siteName: "Arkajyoti Banerjee Portfolio",
+    type: "website",
   },
 }
 
